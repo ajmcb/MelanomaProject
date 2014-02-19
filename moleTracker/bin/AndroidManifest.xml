@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.moletracker"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+            android:name="com.example.moletracker.About"
+            android:label="@string/about"
+            android:parentActivityName="com.example.moletracker.MainActivity">
+        </activity>
+
+        <activity 
+            android:name="com.example.moletracker.SkinAreas"
+            android:label="@string/profile"
+            android:parentActivityName="com.example.moletracker.MainActivity">
+        </activity>
+
+        <activity 
+            android:name="com.example.moletracker.Area"
+            android:label="@string/area">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area2"
+            android:label="@string/area2">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area3"
+            android:label="@string/area3">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area4"
+            android:label="@string/area4">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area5"
+            android:label="@string/area5">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area6"
+            android:label="@string/area6">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area7"
+            android:label="@string/area7">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area8"
+            android:label="@string/area8">
+        </activity>
+        <activity 
+            android:name="com.example.moletracker.Area9"
+            android:label="@string/area9">
+        </activity>
+    </application>
+</manifest>

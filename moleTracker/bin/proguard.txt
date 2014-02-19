@@ -1,0 +1,79 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.example.moletracker.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.example.moletracker.Area { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.example.moletracker.Area2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.example.moletracker.Area3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.example.moletracker.Area4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.moletracker.Area5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.example.moletracker.Area6 { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.example.moletracker.Area7 { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.example.moletracker.Area8 { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.example.moletracker.Area9 { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.example.moletracker.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.example.moletracker.SkinAreas { <init>(...); }
+
+# onClick res/layout/main.xml #generated:12
+-keepclassmembers class * { *** about(...); }
+
+# onClick res/layout/area.xml #generated:13
+# onClick res/layout/area2.xml #generated:13
+-keepclassmembers class * { *** add(...); }
+
+# onClick res/layout/skinareas.xml #generated:7
+-keepclassmembers class * { *** area1(...); }
+
+# onClick res/layout/skinareas.xml #generated:13
+-keepclassmembers class * { *** area2(...); }
+
+# onClick res/layout/skinareas.xml #generated:19
+-keepclassmembers class * { *** area3(...); }
+
+# onClick res/layout/skinareas.xml #generated:25
+-keepclassmembers class * { *** area4(...); }
+
+# onClick res/layout/skinareas.xml #generated:31
+-keepclassmembers class * { *** area5(...); }
+
+# onClick res/layout/skinareas.xml #generated:37
+-keepclassmembers class * { *** area6(...); }
+
+# onClick res/layout/skinareas.xml #generated:43
+-keepclassmembers class * { *** area7(...); }
+
+# onClick res/layout/skinareas.xml #generated:49
+-keepclassmembers class * { *** area8(...); }
+
+# onClick res/layout/skinareas.xml #generated:55
+-keepclassmembers class * { *** area9(...); }
+
+# onClick res/layout/about.xml #generated:12
+# onClick res/layout/area.xml #generated:18
+# onClick res/layout/area2.xml #generated:18
+# onClick res/layout/skinareas.xml #generated:61
+-keepclassmembers class * { *** back(...); }
+
+# onClick res/layout/main.xml #generated:7
+-keepclassmembers class * { *** profile(...); }
+

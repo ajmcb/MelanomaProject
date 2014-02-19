@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button
+    android:onClick="area1"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area1"/>
+<Button
+    android:onClick="area2"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area2"/>
+<Button
+    android:onClick="area3"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area3"/>
+<Button
+    android:onClick="area4"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area4"/>
+<Button
+    android:onClick="area5"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area5"/>
+<Button
+    android:onClick="area6"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area6"/>
+<Button
+    android:onClick="area7"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area7"/>
+<Button
+    android:onClick="area8"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area8"/>
+<Button
+    android:onClick="area9"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/area9"/>
+<Button
+    android:layout_weight="1"
+    android:onClick="back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/back"/>
+</LinearLayout>
