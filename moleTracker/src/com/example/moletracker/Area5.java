@@ -24,10 +24,14 @@ public class Area5 extends Activity
     } 
 
     public void add(View view) {
-        Intent intent = new Intent(this, Area.class);
         EditText editText = (EditText) findViewById(R.id.location);
         String location = editText.getText().toString();
-        Button btn = new Button(this);
-        btn.setText(location);
+        Button myButton = new Button(this);
+        myButton.setText(location);
+        LinearLayout ll = (LinearLayout) findViewById(R.id.area2);
+        LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+        ll.addView(myButton, lp);
+        editText.setText("");
+        editText.setHint("Enter location of mole");
     }       
 }

@@ -34,5 +34,6 @@ public class Area2 extends Activity
         LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
         ll.addView(myButton, lp);
         editText.setText("");
+        editText.setHint("Enter location of mole");
     }     
 }

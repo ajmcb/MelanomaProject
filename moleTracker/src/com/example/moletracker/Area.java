@@ -30,9 +30,10 @@ public class Area extends Activity
         String location = editText.getText().toString();
         Button myButton = new Button(this);
         myButton.setText(location);
-        LinearLayout ll = (LinearLayout) findViewById(R.id.area);
+        LinearLayout ll = (LinearLayout) findViewById(R.id.area2);
         LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
         ll.addView(myButton, lp);
         editText.setText("");
+        editText.setHint("Enter location of mole");
     }       
 }
