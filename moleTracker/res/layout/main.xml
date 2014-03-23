@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<Button
-    android:onClick="profile"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/profile"/>
-<Button
-    android:onClick="about"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/about"/>
-</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        >
+    <Button
+        android:onClick="profile"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/profile"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:onClick="about"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/about"
+        android:background="@drawable/custom_button"/>
+     </LinearLayout>
+
 
 

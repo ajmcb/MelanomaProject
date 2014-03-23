@@ -6,20 +6,20 @@ public class Location {
     private String area; 
 
 
-    public String setLocation(String nlocation) {
-        location = nlocation;
+    public void setLocation(String nlocation) {
+        this.location = nlocation;
     }
 
     public String getLocation() {
-        return location;
+        return this.location;
     }
 
-    public String setArea(String narea) {
-        area = narea;
+    public void setArea(String narea) {
+        this.area = narea;
     }
 
     public String getArea() {
-        return area;
+        return this.area;
     }
 
 }

@@ -17,7 +17,10 @@ public class Area extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.area);
+        setContentView(R.layout.area2);
+        Intent intent = getIntent();
+        String label = intent.getStringExtra(SkinAreas.EXTRA_LABEL);
+        setTitle(label);        
     }
 
     public void back(View view) {
@@ -31,7 +34,7 @@ public class Area extends Activity
         Button myButton = new Button(this);
         myButton.setText(location);
         LinearLayout ll = (LinearLayout) findViewById(R.id.area2);
-        LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+        LayoutParams lp = new LayoutParams(150, 60);
         ll.addView(myButton, lp);
         editText.setText("");
         editText.setHint("Enter location of mole");
