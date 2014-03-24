@@ -10,47 +10,73 @@
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area1"/>
+    android:text="@string/area1"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 <Button
     android:onClick="area2"
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area2"/>
+    android:text="@string/area2"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 <Button
     android:onClick="area3"
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area3"/>
+    android:text="@string/area3"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 <Button
     android:onClick="area4"
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area4"/>
+    android:text="@string/area4"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 <Button
     android:onClick="area5"
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area5"/>
+    android:text="@string/area5"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 <Button
     android:onClick="area6"
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area6"/>
+    android:text="@string/area6"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 <Button
     android:onClick="area7"
     android:layout_weight="1"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/area7"/>
+    android:text="@string/area7"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
+
+
 <Button
     android:layout_weight="1"
     android:onClick="back"
     android:layout_width="150dp"
     android:layout_height="wrap_content"
-    android:text="@string/back"/>
+    android:text="@string/back"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 </LinearLayout>

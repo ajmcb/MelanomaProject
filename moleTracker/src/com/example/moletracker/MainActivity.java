@@ -18,7 +18,7 @@ public class MainActivity extends Activity
     public void about(View view) {
         Intent intent = new Intent(this, About.class);
         startActivity(intent);    
-    }
+    } 
 
     public void profile(View view) {
         Intent intent = new Intent(this, SkinAreas.class);

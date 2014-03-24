@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/area"
+    android:id="@+id/photos"
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
 <Button
+    android:onClick="takePhoto"
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:text="Take a photo"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
+<Button
     android:onClick="back"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/back"/>
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:text="@string/back"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_button"
+    android:textColor="@drawable/text_colour"/>
 </LinearLayout>

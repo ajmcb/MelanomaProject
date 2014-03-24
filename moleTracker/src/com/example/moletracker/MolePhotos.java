@@ -25,8 +25,12 @@ public class MolePhotos extends Activity
         setContentView(R.layout.molephotos);
     }
 
+    public void takePhoto(View view) {
+        
+    }
+
     public void back(View view) {
-       Intent intent = new Intent(this, Area1.class);
+       Intent intent = new Intent(this, SkinAreas.class);
        startActivity(intent);
     }
 }
