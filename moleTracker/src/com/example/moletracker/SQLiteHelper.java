@@ -1,4 +1,4 @@
-package com.example.moletracker;
+/*package com.example.moletracker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,32 +14,32 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
 	private static final String TAG = "SQLiteHelper";
 
-	/*------------------- Databae Information ----------------------*/
+	/*------------------- Databae Information ----------------------
 	private static final String DATABASE_NAME = "moles.db";
 	private static final int DATABASE_VERSION = 1;
-	/*------------------- Tables ----------------------*/
+	------------------- Tables ----------------------
 	public static final String TABLE_MOLES = "moles";
 	public static final String TABLE_PHOTOS = "photos";
-	/*------------------- Columns for Table moles ----------------------*/
+	------------------- Columns for Table moles ----------------------
 	public static final String COLUMN_LOCATION = "location";
 	public static final String COLUMN_AREA = "area";
-	/*------------------- Columns for Table photos ----------------------*/
+	------------------- Columns for Table photos ----------------------
     public static final String COLUMN_TIME = "time"
 	public static final String COLUMN_AREA = "area";
 
-	/*------------------- Create Table Moles ----------------------*/
+	------------------- Create Table Moles ----------------------
 	private static final String CREATE_TABLE_MOLES = "CREATE TABLE " + TABLE_MOLES+ "(" +
 	COLUMN_LOCATION +" TEXT PRIMARY KEY, "+ 
 	COLUMN_AREA + " TEXT PRIMARY KEY" +
 	")";
-	/*------------------- Create Table Photos ----------------------*/
+	------------------- Create Table Photos ----------------------
 	private static final String CREATE_TABLE_PHOTOS = "CREATE TABLE " + TABLE_PHOTOS + "(" +
 	COLUMN_DATE + " TEXT PRIMARY KEY, " +
 	COLUMN_AREA + " TEXT" +
 	")";
 
 
-	/*------------------- Important stuff ------------------------------*/
+	------------------- Important stuff ------------------------------
 	public SQLiteHelper(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
 		// TODO Auto-generated constructor stub
@@ -91,7 +91,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
 	}
 
-	/*------------------- Course CRUDS ----------------------*/
+	------------------- Course CRUDS ----------------------
 	public long createCourse(Course course){
 		SQLiteDatabase database = this.getWritableDatabase();
 		//Log.d(TAG, "Creating course in database");
@@ -252,7 +252,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 		return lectures;
 	}
 
-	/*------------------------------ Lectures CRUDS ------------------------------------*/
+	------------------------------ Lectures CRUDS ------------------------------------
 	public long createLecture(Lecture lecture){
 		SQLiteDatabase database = this.getWritableDatabase();
 		//Log.d(TAG, "Creating lecture in database");
@@ -393,7 +393,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 		return lectures;
 	}
 
-	/*------------------------------ Timetable CRUDS ------------------------------------*/
+	------------------------------ Timetable CRUDS ------------------------------------
 	// Add class takes a Lecture type and adds it to the database
 	public long addClass(Lecture lecture){
 		SQLiteDatabase database = this.getWritableDatabase();
@@ -524,7 +524,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 		}
 		return timetable;
 	}
-	/* -------------------- Building CRUDS ------------------*/
+	 -------------------- Building CRUDS ------------------
 	public long createBuilding(Building building){
 		SQLiteDatabase database = this.getWritableDatabase();
 		ContentValues values = new ContentValues();
@@ -536,7 +536,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 		return insertId;
 	}
 
-	/* --------------------Room CRUDS ------------------*/
+	 --------------------Room CRUDS ------------------
 	public long createRoom(Room room){
 		SQLiteDatabase database = this.getWritableDatabase();
 		ContentValues values = new ContentValues();
@@ -623,3 +623,4 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
 
 }
+*/
